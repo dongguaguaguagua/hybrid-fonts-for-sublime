@@ -10,13 +10,15 @@ When FiraCode-Italic doesn't exisit, sublime will fake the italic font. However,
 
 ## Fira-Code-60002
 
-This folder contains 7 ttf fonts:
+This folder contains 8 ttf fonts:
 
 ```
 FiraCode-Bold.ttf     FiraCode-Medium.ttf   FiraCode-SemiBold.ttf
-FiraCode-Italic.ttf   FiraCode-Regular.ttf
+FiraCode-Italic.ttf   FiraCode-Regular.ttf  FiraCode-Italic2.ttf
 FiraCode-Light.ttf    FiraCode-Retina.ttf
 ```
+
+### Fira Code & Consolas
 
 Up till 2023/1/9, the latest Fira Code version is 6.2, but obviously, FiraCode 6.2 doesn't provide an italic font. So I combined Fira Code with [consolas_ligaturized](https://github.com/somq/consolas-ligaturized).
 
@@ -24,7 +26,7 @@ To be more specefic, I extracted italic characters *ABCDEFGHIJKLMNOPQRSTUVWXYZab
 
 As a result, the hybrid font *Fira Code Italic* is similiar with consolas but maintained ligature feature of Fira Code.
 
-![ligature](Snipaste_2023-01-09_19-47-53)
+![ligature Image](Snipaste_2023-01-09_19-47-53)
 
 Other fonts in Fira-Code-60002 are exactly the same fonts from the latest Fira Code github release.
 
@@ -32,9 +34,17 @@ Also, *Fira Code Italic* belongs to Fira Code font family, so you can install th
 
 It looks pretty in both Python and C++, with Monaco Pro (code scheme) and Material Theme (UI).
 
-![Python](./images/Snipaste_2023-01-09_19-20-28.png)
+![Python Image](./images/Snipaste_2023-01-09_19-20-28.png)
 
-![Cpp](./images/Snipaste_2023-01-09_19-24-30.png)
+![Cpp Image](./images/Snipaste_2023-01-09_19-24-30.png)
+
+### Fira Code & operator mono light italic
+
+Please rename `Fira-Code-60002/FiraCode-Italic2.ttf` into FiraCode-Italic.ttf then install it.
+
+Looks good on my mac:
+
+![Cpp Image](./images/Snipaste_2023-01-09_20-33-56.png)
 
 ## How to build my own hybrid font ?
 

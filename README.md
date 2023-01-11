@@ -48,6 +48,12 @@ Looks good on my Mac:
 
 ![Cpp Image](https://raw.githubusercontent.com/dongguaguaguagua/hybrid-fonts-for-sublime/main/images/Snipaste_2023-01-09_20-33-56.png)
 
+### Fira Code & operator mono book italic
+
+Please rename `Fira-Code-60002/FiraCodeRegular-OperatorMonoBookItalic.ttf` into `FiraCode-Italic.ttf` then install it. Don't forget to uninstall the previous italic font to avoid confliction.
+
+Book italic font is bolder than light italic.
+
 ### Fira Code Regular With Changed `g` and `a`
 
 Please rename `Fira-Code-60002/FiraCodeRegular-changed-ga.ttf` into `FiraCode-Regular.ttf` then install it. Don't forget to uninstall the previous regular font to avoid confliction.
